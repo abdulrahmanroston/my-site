@@ -1,0 +1,52 @@
+
+
+
+.landing-category {
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-category .image {
+    min-width: 100%;
+    height: 100%;
+    background-image: url('../imgs/Business_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    opacity: 0.4; 
+}
+
+
+.landing-category .category-info {
+    width: 90%;
+    padding: 30px 70px;
+    background-color: #0000007d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.landing-category .category-info h3 {
+    font-size: 38px;
+    color: white;
+}
+
+.landing-category .category-info .name {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.recent-articles .content {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(1fr, 1fr) );
+    gap: 30px;
+}
